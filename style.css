@@ -1,0 +1,156 @@
+
+
+body {
+	background-color: rgb(232,216,230);
+	color: rgb(10,10,10);
+	text-align: center;
+	font-family: 'Lora', serif;
+  	font-size: 17px;
+  	font-weight: lighter;
+  	display: block;
+    margin: 8px;
+
+}
+
+h1{
+	color : rgb(154,23,80);
+	font-size: 30px;
+	font-weight: Monotype;
+	font-style: italic;
+}
+
+h2{
+	color:rgb(100,72,92);
+	font-size: 25px;
+}
+
+h3{
+	color: #e85195;
+	font-size: 20px;
+}
+
+h4{
+	color: #d4c9ce;
+	font-size: 15px;
+}
+
+p{
+	color: rgb(46,18,20);
+	text-justify: text-justify;
+} 
+
+h1,h2{
+	font-family: "verdana", sans-serif; 
+}
+
+.text-white {
+	color: pink;
+}
+
+.text-gauche{
+	text-align: left;
+}
+
+.card-white{
+	background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    margin-right: 250px;
+    margin-left: 250px;
+    text-align: center;
+    min-width: 300px;
+}
+
+.card-white:hover
+
+.card-white-little{
+	background-color: white;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    margin-right: 270px;
+    margin-left: 270px;
+    text-align: center;
+    min-width: 300px;
+}
+
+.card-white-little:hover
+
+.intro{
+	color: #424042;
+}
+
+
+.btn-purple{
+	background-color: rgb(154,23,80);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+
+.text-italic{
+	font-style: italic;
+}
+
+.fa-instagram-square:before{
+	content: "\e055";
+	color: rgb(154,23,80);
+}
+
+.fa-linkedin:before{
+	content: "\f08c";
+	color: rgb(154,23,80);
+}
+
+.fa-facebook-square:before{
+	content: "\f082";
+	color: rgb(154,23,80);
+}
+
+.list-inline li {
+	display: inline;
+  padding: 10px;
+}
+
+.list-inline i{
+	font-size: 50px;
+}
+
+.list-inline i:hover {
+  color: rgb(154,23,80);
+}
+
+.CVphoto{
+	border-radius: 50%
+}
+
+
+@media (max-width: 960px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+@media (max-width: 450px){
+	.container{
+		width: 400px;
+	}
+}
+
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+
+
+
